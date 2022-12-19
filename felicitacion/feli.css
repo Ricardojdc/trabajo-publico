@@ -1,0 +1,71 @@
+body {
+
+    background-color: grey;
+
+}
+
+img {
+    position: absolute;
+    height: 100%;
+    transition: 2s;
+    margin-left: 28%;
+}
+
+div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 2s;
+
+}
+
+p {
+
+    font-family: Trebuchet MS;
+    font-size: medium;
+    padding-top: 5%;
+
+
+}
+
+p:nth-child(odd) {
+
+    color: greenyellow;
+
+}
+
+p:nth-child(even) {
+
+
+    color: rgb(131, 116, 196);
+
+}
+
+div:active {
+
+    opacity: 1;
+}
+
+div:hover {
+    opacity: 1;
+}
+
+
+@media all and (orientation:landscape) {
+
+    img,
+    div {
+        width: 40%;
+        margin-left: 28%;
+    }
+
+    p {
+
+        font-size: x-large;
+
+    }
+}
