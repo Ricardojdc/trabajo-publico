@@ -13,10 +13,10 @@
 			<body>
 				
 				<h1>Información de la canción</h1>
-				<h2><xsl:value of select="titulo"/></h2>
-				<xsl:for-each select="estrofa">
+				<h2><xsl:value-of select="cancion/titulo"/></h2>
+				<xsl:for-each select="cancion/estrofa">
 				<tr>
-				<td><xsl:value-of select="verso"/></td>
+				<td><xsl:value-of select="cancion/verso"/></td>
 				
 				</tr>
 				</xsl:for-each>
