@@ -1,6 +1,6 @@
 body{
 
-background-color: antiquewhite;
+background-color: rgb(223, 184, 134);
 
 }
 
@@ -8,4 +8,16 @@ h1{
 
 background-color: rgb(133, 206, 133);
 
+}
+
+.classp1 nav{
+
+    background-color: rgb(221, 145, 145);
+    text-align: center;    
+}
+
+.classp2 nav{
+
+    background-color: rgb(138, 183, 212);
+    text-align: center;    
 }
