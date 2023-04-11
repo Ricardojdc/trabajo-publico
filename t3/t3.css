@@ -21,3 +21,15 @@ background-color: rgb(133, 206, 133);
     background-color: rgb(138, 183, 212);
     text-align: center;    
 }
+
+a{
+    display: inline-block;
+    background-color: lightblue;
+    margin: 2px;
+    width: 20vw;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(107, 59, 59);
+
+
+
+}
