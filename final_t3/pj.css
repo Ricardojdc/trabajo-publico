@@ -25,6 +25,12 @@ body{
     align-items: center;
     margin-top: 50px;
 }
+#ifr{
+
+height: 700;
+width: 800;
+
+}
 
 #caja1 {
     margin-bottom: 20px;
@@ -40,9 +46,11 @@ body{
     height: auto;
 }
 
+
+
 /* Footer */
 .footer {
-    background-color: #333;
+    background-color: #ccc0c0;
     color: #fff;
     padding: 10px;
     text-align: center;
