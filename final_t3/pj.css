@@ -46,6 +46,105 @@ width: 800;
     height: auto;
 }
 
+#show-modal{
+  position: fixed;
+  display: flex;
+  margin-top: 20%;
+  margin-left: 45%;
+  color: white;
+  background: #1926A6;
+  text-align: center;
+  justify-content: center;
+  padding: 15px 15px;
+  font-weight: 500;
+  font-size: 1.5em;
+  border-radius: 3.5px;
+  text-decoration: none;
+}
+
+.modal{
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: -100vh;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  z-index: 100;
+}
+
+/* Interior de la ventana emergente | Ajuste de la posicion  y relleno del texto | */
+.modal .content-modal{
+  background: #d5e72f;
+  position: fixed;
+  width: 100%;
+  left: 15%;
+  max-width: 1000px;
+  border-radius: 2px;
+  z-index: 99;
+  font-size: small;
+}
+
+
+/* Interior de la ventana emergente | Ajuste del texto | */
+.modal h2{
+  color: var(--textTitle);
+  text-align: center;
+  padding: 0.5em;
+  margin: 0;
+}
+
+#modaltext{
+  text-align: center;
+}
+
+/* Ventana emergente modal | Tamaño | Background | */
+.modal article{
+  background: #d5e72f;
+  height: 700px;
+}
+
+.modal:target{
+  opacity: 1;
+  top: 0;
+}
+
+/* Boton para cerrar la ventana emergente*/
+.modal .button-close-modal{
+  color: black;
+  text-decoration: none;
+  position: absolute;
+  top: 0.2em;
+  right: 0.375em;
+  margin: 0;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 2em;
+  z-index: 101;
+}
+
+/* Hover para cerrar la ventana emergente*/
+.modal .button-close-modal:hover{
+  color: red;
+  cursor: pointer;
+}
+
+.modal:target .content-modal{
+  top: 50px;
+  transition: top 0.35s ease;
+}
+
+@media (max-width:796px){
+  .modal .content-modal{
+      width: 90%;
+      max-width: none;
+      left: 5%;
+      margin-left: 0;
+  }
+}
+
+
 
 
 /* Footer */
