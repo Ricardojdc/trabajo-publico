@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ajustes</title>
+  <link rel="stylesheet" href="pj.css">
+</head>
+<body>
+
+  <div class="navbar">
+    <nav>
+        <div>
+            <a href="index.html">Página principal</a>
+            <a href="p2.html">Información de la banda</a>
+            <a href="#modal">Información del trabajo</a>
+            <a href="cancion.html">Canción</a>
+            <a href="ajustes.html">Ajustes</a>
+           
+        </div>
+    </nav>
+
+</div>
+
+<main>
+
+    <div id="content">
+        <div id="caja1">
+            <img alt="Logo_banda" src="imagenes_t1/logo.png">
+        </div>
+
+        <div id="caja1">
+          
+        </div>
+    </div>
+
+    <h1>Ajustes</h1>
+  
+  
+  <button onclick="increaseFontSize()">Incrementa el tamañó de la fuente</button>
+  <button onclick="decreaseFontSize()">Decrementa el tamaño de la fuente</button>
+  <input type="color" id="colorInput">
+  <button onclick="changeBackgroundColor()">Cambia el color del fondo</button>
+
+    <br><br><br><br>
+
+    <div class="footer">
+        <p><a href="http://www.pearljam.com" target="_blank">Enlace web oficial</a></p>
+    </div>
+</main>
+<script src="ajustes.js"></script>
+
+<script>
+    
+    var fontSize = localStorage.getItem('fontSize');
+    var backgroundColor = localStorage.getItem('backgroundColor');
+    
+    if (fontSize) {
+      document.body.style.fontSize = fontSize;
+    }
+    
+    if (backgroundColor) {
+      document.body.style.backgroundColor = backgroundColor;
+    }
+  </script>
+  
+
+  
+</body>
+</html>
