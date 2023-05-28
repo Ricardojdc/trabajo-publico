@@ -12,10 +12,16 @@
             <a href="index.html">Página principal</a>
             <a href="p2.html">Información de la banda</a>
             <a href="#modal">Información del trabajo</a>
-            <a href="ajustes.html">Ajustes</a>
             <a href="cancion.html">Canción</a>
+            <a href="ajustes.html">Ajustes</a>
+            
         </div>
+       
     </nav>
+    <div id="nombreusuario">
+        <p>Nombre de usuario</p>
+      </div>
+</div>
 
 </div>
 
@@ -25,6 +31,27 @@
         <div id="caja1">
             <img alt="Logo_banda" src="imagenes_t1/logo.png">
         </div>
+
+        <aside id="modal" class="modal">
+          <div class="content-modal">
+              <header>
+                  <a href="#" class="button-close-modal">x</a>
+                  <h2>Ricardo Delgado Camuña -1 DAW</h2>
+              </header>
+                  <p style="color: #FF00FB; text-align: center;">CUMPLIMIENTOS REQUISITOS NO OBVIOS</p>
+                  <ul>
+                      <p>La pestaña de "Expansiones" es simplemente un contenido desplegable (dropdown content) que he incluido para practicar con esta funcionalidad, aunque no redirige a ninguna otra página o sección. Su objetivo principal es permitirme explorar y familiarizarme con la implementación de este tipo de elementos interactivos en la página web.</p>
+                      <p>La pestaña "Ajustes" te permite personalizar los colores y el tamaño únicamente en esa página, con el fin de evitar afectar el diseño de toda la web. Sin embargo, si refrescas la página o vuelves a la pestaña de "Ajustes", se conservarán los cambios que hayas guardado. Además, si abres el modal desde la ventana de "Ajustes" y modificas el color, también se reflejará en el modal.</p>
+                      <p>En cuanto al modo día y noche, este recordará el último estado seleccionado únicamente en la pantalla de inicio.</p>
+                      <p>La funcionalidad en JavaScript se divide en dos aspectos principales. Por un lado, el modo día y noche se encarga de cambiar varios valores dependiendo del modo seleccionado (MODIFICACION). Por otro lado, la sección de Lectura se encarga de los Ajustes, como la elección de colores, así como de permitir al usuario introducir su nombre en la pagina de Inicio.</p>
+                      <p>Cuando el usuario realiza cambios en los Ajustes, los valores modificados se muestran en la consola para que puedas verlos. Esto te permite tener un registro de los ajustes seleccionados por el usuario, como los colores elegidos o el tamaño de la letra. Además, cuando el usuario introduce su nombre, también se mostrará en la consola.</p>
+                      <p>El nombre solo se puede introducir desde la página de Inicio debido a consideraciones de diseño. Aunque el nombre se guarda en todas las páginas, si refrescas la página, el nombre introducido se mantendrá visible.</p>
+                      <p>Sin embargo, si cierras completamente la web y luego la vuelves a abrir, el campo de nombre aparecerá como "Sin identificar" nuevamente. Esto se debe a que la información de nombre no se guarda de forma persistente en la web y se restablece al reiniciarla.</p>
+                      <p>Los elementos de entrada de datos estan en el usuario al introducir su nombre (1), el color (2) en ajustes y el tamaño (3).</p>
+                  </ul>
+          </div>
+      </aside>
+
         <div id="caja1">
             <!-- Your iframe goes here -->
             <iframe src="cancion.xml" height="700" width="800"></iframe>
@@ -40,7 +67,7 @@
         <p><a href="http://www.pearljam.com" target="_blank">Enlace web oficial</a></p>
     </div>
 </main>
-
+<script src="ajustes.js"></script>
 
 <script>
     
