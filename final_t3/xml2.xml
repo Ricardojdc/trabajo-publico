@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="xml1.xsl" ?>
-	<link rel="stylesheet" type="text/css" href="cancion1.css" />
+	
 <cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xml2.xsd">
 	<titulo>In my tree</titulo>
 	<autor>Pearl Jam</autor>
