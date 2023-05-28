@@ -5,7 +5,7 @@
 	<artista>Pearl Jam</artista>
 		<estrofa>
 			<tipo>normal</tipo>
-			<<verso>Up here in my tree yeah...</verso>
+			<verso>Up here in my tree yeah...</verso>
 			<verso>Newspapers meant enough to me yeah...no...</verso>
 			<verso>No more crowbars to my head yeah...</verso>
 			<verso>I'm trading stories with the leaves instead yeah...</verso>		
