@@ -3,8 +3,7 @@
 	<xsl:template match="/">
 		<html>
 			<head>
-					<link rel="stylesheet" type="text/css" href="cancion1.css" />
-			</head>
+				
 			<body>
 				
 				<h1><xsl:value-of select="cancion/titulo/."/></h1>
