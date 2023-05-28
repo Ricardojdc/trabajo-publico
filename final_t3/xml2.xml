@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xml1.xsl" ?>
+<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xml2.xsd">
+	<titulo>In my tree</titulo>
+	<autor>Pearl Jam</autor>
+	<letras>
+		<estrofa>
+			<verso>Up here in my tree yeah...</verso>
+			<verso>Newspapers meant enough to me yeah...no...</verso>
+			<verso>No more crowbars to my head yeah...</verso>
+			<verso>I'm trading stories with the leaves instead yeah...</verso>			
+		</estrofa>
+		<estrofa>
+			<verso>Wave to all my friends yeah...</verso>
+			<verso>They don't seem to notice me no...</verso>
+			<verso>All their eyes trained on the street yo oh...</verso>
+			<verso>Sidewalk cigarettes and scenes yeah...yeah...</verso>			
+		</estrofa>
+		<estrofa>
+			<verso>Up here so high I start to escape</verso>
+			<verso>Up here so high the sky I scrape</verso>
+			<verso>I'm so high I hold just one breath here within my chest</verso>
+			<verso>Just like innocence...</verso>			
+		</estrofa>
+		<estrofa>
+			<verso>I remember him, yeah...</verso>
+			<verso>I swore I knew everything, oh yeah...</verso>
+			<verso>They say knowledge is a dream, yeah...</verso>
+			<verso>He's growing up just like me, yeah...</verso>			
+		</estrofa>
+		<estrofa>
+			<verso>I'm so light, the wind he shakes</verso>
+			<verso>I'm so high, the sky I scrape, yeah...</verso>
+			<verso>I'm so light I hold just one breath and go back to my nest</verso>
+			<verso>Sleep with innocence...</verso>			
+		</estrofa>
+		<estrofa>
+			<verso>Up here so high, the bars they break...</verso>
+			<verso>Up here so high, the sky I scrape...</verso>
+			<verso>Had my eyes peeled both wide open, and I got a glimpse...</verso>
+			<verso>Of my innocence...got back my innocence...</verso>
+			<verso>Baby, got it...still got it....</verso>		
+		</estrofa>
+		
+	</letras>
+</cancion>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal</title>
+
+    <link rel="stylesheet" href="pj.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <nav>
+            <div>
+                <a href="index.html">Página principal</a>
+                <a href="p2.html">Información de la banda</a>
+                <a href="ajustes.html">Ajustes</a>
+                <a href="cancion.html">Canción</a>
+            </div>
+        </nav>
+    
+    </div>
+
+    <main>
+
+        <div id="content">
+            <div id="caja1">
+                <img alt="Logo_banda" src="imagenes_t1/logo.png">
+            </div>
+
+            <div id="caja1">
+              
+                <div id="foto">
+                    <picture id="portaFoto">
+                        <source media="(orientation: landscape) and (min-width: 1201px)"
+                            srcset="imagenes_t1/pearl_jam_original_g-h.jpg" type="image/heic">
+                        <source media="(orientation: landscape) and (min-width: 1201px)"
+                            srcset="imagenes_t1/pearl_jam_original_g-h.webp" type="image/webp">
+                        <source media="(orientation: landscape) and (min-width: 1201px)"
+                            srcset="imagenes_t1/pearl_jam_original_g-h.jpg" type="image/jpg">
+                        <source media="(orientation: portrait) and (min-width:601px)"
+                            srcset="imagenes_t1/pearl_jam_original_g-v.heic" type="image/heic">
+                        <source media="(orientation: portrait) and (min-width:601px)"
+                            srcset="imagenes_t1/pearl_jam_original_g-v.webp" type="image/webp">
+                        <source media="(orientation: portrait) and (min-width:601px)"
+                            srcset="imagenes_t1/pearl_jam_original_g-v.jpg" type="image/jpg">
+                        <source media="(orientation: landscape) and (min-width: 901px)"
+                            srcset="imagenes_t1/pearl_jam_original_m-h.heic" type="image/heic">
+                        <source media="(orientation: landscape) and (min-width: 901px)"
+                            srcset="imagenes_t1/pearl_jam_original_m-h.webp" type="image/webp">
+                        <source media="(orientation: landscape) and (min-width: 901px)"
+                            srcset="imagenes_t1/pearl_jam_original_m-h.jpg" type="image/jpeg">
+                        <source media="(orientation: portrait) and (min-width:401px)"
+                            srcset="imagenes_t1/pearl_jam_original_m-v.heic" type="image/heic">
+                        <source media="(orientation: portrait) and (min-width:401px)"
+                            srcset="imagenes_t1/pearl_jam_original_m-v.webp" type="image/webp">
+                        <source media="(orientation: portrait) and (min-width:401px)"
+                            srcset="imagenes_t1/pearl_jam_original_m-v.jpg" type="image/jpg">
+                        <source media="(orientation: landscape) and (max-width: 900px)"
+                            srcset="imagenes_t1/pearl_jam_original_p-h.heic" type="image/heic">
+                        <source media="(orientation: landscape) and (max-width: 900px)"
+                            srcset="imagenes_t1/pearl_jam_original_p-h.webp" type="image/webp">
+                        <source media="(orientation: landscape) and (max-width: 900px)"
+                            srcset="imagenes_t1/pearl_jam_original_p-h.jpg" type="image/jpeg">
+                        <source media="(orientation: portrait) and (max-width: 400px)"
+                            srcset="imagenes_t1/pearl_jam_original_p-v.heic" type="image/heic">
+                        <source media="(orientation: portrait) and (max-width: 400px)"
+                            srcset="imagenes_t1/pearl_jam_original_p-v.webp" type="image/webp">
+                        <source media="(orientation: portrait) and (max-width: 400px)"
+                            srcset="imagenes_t1/pearl_jam_original_p-v.jpg" type="image/jpg">
+                        <img id="laFoto" alt="Foto de la banda" title="Concierto" src="imagenes_t1/pearl_jam.jpg" />
+                    </picture>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br><br>
+
+        <div class="footer">
+            <p><a href="http://www.pearljam.com" target="_blank">Enlace web oficial</a></p>
+        </div>
+    </main>
+
+    
+    <script>
+        
+        var fontSize = localStorage.getItem('fontSize');
+        var backgroundColor = localStorage.getItem('backgroundColor');
+        
+        if (fontSize) {
+          document.body.style.fontSize = fontSize;
+        }
+        
+        if (backgroundColor) {
+          document.body.style.backgroundColor = backgroundColor;
+        }
+      </script>
+</body>
+
+</html>

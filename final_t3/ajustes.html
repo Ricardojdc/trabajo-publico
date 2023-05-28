@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Font Size and Background Color Changer</title>
+  <link rel="stylesheet" href="pj.css">
+</head>
+<body>
+
+  <div class="navbar">
+    <nav>
+        <div>
+            <a href="index.html">Página principal</a>
+            <a href="p2.html">Información de la banda</a>
+            <a href="ajustes.html">Ajustes</a>
+            <a href="cancion.html">Canción</a>
+        </div>
+    </nav>
+
+</div>
+
+<main>
+
+    <div id="content">
+        <div id="caja1">
+            <img alt="Logo_banda" src="imagenes_t1/logo.png">
+        </div>
+
+        <div id="caja1">
+          
+        </div>
+    </div>
+
+    <h1>Font Size and Background Color Changer</h1>
+  <p>Click the buttons to change the font size and background color:</p>
+  
+  <button onclick="increaseFontSize()">Increase Font Size</button>
+  <button onclick="decreaseFontSize()">Decrease Font Size</button>
+  <input type="color" id="colorInput">
+  <button onclick="changeBackgroundColor()">Change Background Color</button>
+
+    <br><br><br><br>
+
+    <div class="footer">
+        <p><a href="http://www.pearljam.com" target="_blank">Enlace web oficial</a></p>
+    </div>
+</main>
+
+
+<script>
+    
+    var fontSize = localStorage.getItem('fontSize');
+    var backgroundColor = localStorage.getItem('backgroundColor');
+    
+    if (fontSize) {
+      document.body.style.fontSize = fontSize;
+    }
+    
+    if (backgroundColor) {
+      document.body.style.backgroundColor = backgroundColor;
+    }
+  </script>
+  
+
+  <script>
+    // Check if there are any saved preferences in web storage
+    var fontSize = localStorage.getItem('fontSize');
+    var backgroundColor = localStorage.getItem('backgroundColor');
+    
+    if (fontSize) {
+      document.body.style.fontSize = fontSize;
+    }
+    
+    if (backgroundColor) {
+      document.body.style.backgroundColor = backgroundColor;
+    }
+    
+    // Function to increase the font size
+    function increaseFontSize() {
+      var currentSize = parseInt(getComputedStyle(document.body).fontSize);
+      var newSize = currentSize + 2 + 'px';
+      document.body.style.fontSize = newSize;
+      localStorage.setItem('fontSize', newSize);
+    }
+    
+    // Function to decrease the font size
+    function decreaseFontSize() {
+      var currentSize = parseInt(getComputedStyle(document.body).fontSize);
+      var newSize = currentSize - 2 + 'px';
+      document.body.style.fontSize = newSize;
+      localStorage.setItem('fontSize', newSize);
+    }
+    
+    // Function to change the background color
+    function changeBackgroundColor() {
+      var colorInput = document.getElementById('colorInput');
+      var color = colorInput.value;
+      document.body.style.backgroundColor = color;
+      localStorage.setItem('backgroundColor', color);
+    }
+  </script>
+</body>
+</html>

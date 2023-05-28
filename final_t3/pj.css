@@ -1,0 +1,111 @@
+/* CSS for responsive layout */
+
+/* Navbar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+body{
+
+    font-family: 'Trebuchet MS';
+    background-color: rgb(219, 201, 182);
+}
+
+.navbar a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+/* Main content */
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#caja1 {
+    margin-bottom: 20px;
+}
+
+#foto {
+    width: 100%;
+    text-align: center;
+}
+
+#portaFoto img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+#esquina {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+#esquina a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#esquina a:hover {
+    text-decoration: underline;
+}
+
+#contenedorArticles {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: auto;
+    width: auto;
+    padding-top: -50px;
+  }
+  
+  .cajaArticle {
+    width: fit-content;
+    min-height: fit-content;
+    max-height: fit-content;
+    background-color: rgb(104, 103, 102);
+    margin: 10px;
+  }
+  
+  .cajaArticle:nth-child(odd) {
+  
+    background-color: rgb(191, 202, 212);
+  }
+  
+  .cajaArticle:nth-child(even) {
+  
+    background-color: rgb(187, 169, 120);
+  }
+  
+  p::first-letter {
+
+    font-size: x-large;
+  }
+  
+  a:active {
+  
+    color: aliceblue;
+  }
+  
+  a:visited {
+  
+    color: bisque;
+  
+  }
