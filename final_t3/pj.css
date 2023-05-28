@@ -90,7 +90,7 @@ width: 800;
 
 /* Interior de la ventana emergente | Ajuste de la posicion  y relleno del texto | */
 .modal .content-modal{
-  background: #d5e72f;
+  background: #b9ab8d;
   position: fixed;
   width: 100%;
   left: 15%;
@@ -115,7 +115,7 @@ width: 800;
 
 /* Ventana emergente modal | Tamaño | Background | */
 .modal article{
-  background: #d5e72f;
+  background: #8c8d83;
   height: 700px;
 }
 
